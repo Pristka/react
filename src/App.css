@@ -1,38 +1,145 @@
 .App {
-  text-align: center;
+	text-align: center;
+	background-color: #e6e6e6;
+}
+
+.redError {
+	color: red;
+}
+
+.body,
+.mapD {
+	padding-left: 10px;
+	text-align: center;
+	background-color: #e6e6e6;
+}
+
+div {
+	background-color: #e6e6e6;
+}
+
+.Test {
+	width: 15%;
+	box-sizing: border-box;
+	text-align-last: center;
+	direction: ltr;
+}
+
+.home {
+	padding-left: 25px;
+	background-color: #e6e6e6;
+}
+
+html {
+	background-color: #e6e6e6;
+}
+
+.collapse {
+	display: none
+}
+
+.collapse.in {
+	display: block
+}
+
+section,
+article {
+	background-color: #e6e6e6;
+	padding: 10px;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	height: 20vmin;
+	pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	min-height: fit-content;
+	text-align: center;
+	display: block;
+	color: white;
+	background-color: #e6e6e6;
+	padding: 9px;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+	background-color: #e6e6e6;
+	padding-top: 10px;
+	bottom: 0;
+}
+
+.Recommend,
+.Body,
+.regD {
+	background-color: #e6e6e6;
+}
+
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	text-align: center;
+	background-color: #b3b3b3;
+}
+
+form {
+	padding: 8px;
+	background-color: #e6e6e6;
+}
+
+::placeholder {
+	text-align: center;
+}
+
+header {
+	background-color: #e6e6e6;
+}
+
+h2,
+h3 {
+	text-align: center;
+	background-color: #e6e6e6;
+	padding: 8px;
+}
+
+button {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.black {
+	padding: 20px;
+	background-color: #b3b3b3;
+}
+
+.blackFirst {
+	padding: 20px;
+	border-top: 1px solid black;
+	background-color: #b3b3b3;
+}
+
+.blackLast {
+	padding: 20px;
+	border-bottom: 1px solid black;
+	background-color: #b3b3b3;
+}
+
+.white {
+	padding: 20px;
+	background-color: #e6e6e6;
+}
+
+.Courses a {
+	color: black;
+	text-decoration: none;
+}
+
+.Recommend a {
+	color: black;
+	text-decoration: none;
 }
