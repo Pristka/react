@@ -7,8 +7,7 @@
 	color: red;
 }
 
-.body,
-.mapD {
+.body, .mapD {
 	padding-left: 10px;
 	text-align: center;
 	background-color: #e6e6e6;
@@ -42,8 +41,7 @@ html {
 	display: block
 }
 
-section,
-article {
+section, article {
 	background-color: #e6e6e6;
 	padding: 10px;
 }
@@ -72,9 +70,7 @@ footer {
 	bottom: 0;
 }
 
-.Recommend,
-.Body,
-.regD {
+.Recommend, .Body, .regD {
 	background-color: #e6e6e6;
 }
 
@@ -100,8 +96,7 @@ header {
 	background-color: #e6e6e6;
 }
 
-h2,
-h3 {
+h2, h3 {
 	text-align: center;
 	background-color: #e6e6e6;
 	padding: 8px;
